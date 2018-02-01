@@ -1,5 +1,4 @@
-
-#= Hash functions
+# Hash functions
 
 Pre-requisites: none
 
@@ -18,6 +17,8 @@ A proper hash function must follow these requirements:
 - Completely different files can produces same hash value, but this should be
   as unlikely as possible.
 - The conversion in the oposite (from hash value to original file) way must be very difficult
+
+![hash function diagram](./hash-function.svg)
 
 ## References
 
